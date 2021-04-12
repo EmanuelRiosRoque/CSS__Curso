@@ -1,0 +1,30 @@
+ /*Uso de inherit-> Esto es igual que seleccionar las dos casillas (p:a)*/
+
+p{
+    color: red;
+}
+a{
+    color: inherit;
+}
+
+/* 
+                        Etiqueta 1 
+    (Ntexto)Clases y suedo-clases->10
+        (#Ntexto)id-> 100
+           estilos de line-> 1000
+                !important-> Gana a todo
+*/
+
+#parrafo{
+    color: greenyellow;
+}
+
+.parrafo{
+    color: red;
+}
+a{
+    color: inherit;
+}
+p{
+    color: green !important;
+}

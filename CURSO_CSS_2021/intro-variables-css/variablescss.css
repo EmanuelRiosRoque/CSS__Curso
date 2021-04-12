@@ -1,0 +1,46 @@
+/*
+----------------------VARIABLES--------------------
+Una variable es un espacio en memoria en el que guardamos un valor para poder reutilizarlo o modificarlo.
+
+La variables necesitan estar dentro de un selector
+
+Tienen herencia y cascada
+
+Existen variables globales y locales, depedera del selector que en que lo declaremos    
+
+La variables CSS no son lo mismo que las variables SCSS.
+
+Su sintaxis es::after
+
+selector{
+    --nombre-variable:valor;
+}
+
+propiedad:var{--nombre-variable)
+
+
+*/
+
+:root{
+    --color:blue;
+    --border:3px solid yellow;
+}
+
+.parrafo{
+    color: var(--color)
+}
+
+.article{
+    --color:green;
+}
+
+.check:checked + .box{
+    --color: purple;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: var(--color);
+    border: var(--border);
+}

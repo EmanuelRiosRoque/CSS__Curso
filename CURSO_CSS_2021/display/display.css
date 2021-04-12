@@ -1,0 +1,42 @@
+/*
+----------------------DISPLAY--------------------
+Nos permite definir como se comprtan una caja
+
+De forma natural existen elementos en line y elementos en bloque.
+
+Los valores de las propiedada display son:
+
+    -Inline-->Establece que la caja se comporte como si fuera un elemento en linea.
+
+    -block-->Establece que la caja se comporte como si fuera un elemento de bloque.
+
+    -inline-block--> Se comporta como un elemento en linea pero acepta widht y heigth.
+
+    -none-->Oculta el elemento pero se sigue renderizando.
+
+    -table-->Inmita el comportambiento de una tabla.
+
+    -list-item-->imita el comportamiento de una lista.
+
+                CSS3
+    -flex-->maquetar componentes.
+    -grid-->maquetar layout.
+
+*/
+
+.inline{
+    background: chartreuse;
+
+    /* display: inline-block; Nos permite tener un elemento en linea con funciones de un elemento de block */
+    /* height: 400px;
+    margin-bottom: 2em; */
+
+    /* display: none; Utilizar cuando por requicitos de la pagina es necesario */
+
+    
+}
+
+.block{
+    background: chocolate;
+  
+}

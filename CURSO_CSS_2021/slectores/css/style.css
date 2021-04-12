@@ -1,0 +1,21 @@
+nav{
+    color: hotpink;
+    background: khaki;
+    border: 1px solid black;
+}
+
+h2{
+    color: red;
+}
+
+#section{
+    border: black 1px solid;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.carita-feliz{
+    color: red;
+}

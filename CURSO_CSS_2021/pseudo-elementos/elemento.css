@@ -1,0 +1,44 @@
+/*
+-----------------PSEUDOELEMENTOS-----------------Se utilizan para dar estilo a partes especificas de un elemento.
+
+La sintaxis es selector  ::pseudo-element{estilos}
+
+Existen 5 pseudoelementos:
+
+    -->::first-line{Elementos de bloque}
+    -->::first-letter{Elementos de bloque}
+    -->::selection{Retirado de la especificacion}
+    -->::before
+    -->::after
+        La propiedad content es obligaroria
+        Son elementos de linea. pode defecto.
+        Son hijos del elemento al que perteneecen.
+*/
+
+.title::first-letter{
+    color: red;
+    font-size: 3em;
+}
+
+.text::first-line{
+    font-size: 2em;
+    color: blue;
+}
+
+.inline{
+    display: block;
+}
+
+
+.inline::first-letter{
+    color: red;
+    font-size: 3em;
+}
+
+.text::selection{
+    color: white;
+    background: black;
+}
+
+
+

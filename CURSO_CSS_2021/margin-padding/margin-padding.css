@@ -1,0 +1,56 @@
+/*
+-----------------------MARGIN--------------------
+Margin es la separacion entre una caja y las cajas adyasentes.
+
+Margin es un shorthand
+
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+
+    ejemplo visual de como se tomaria en cuenta.
+
+    margin: 1em; (top,right,bottom,left)
+    margin: 1em 2em; (x,y)
+    margin: 1em 2em 3em; (top,x,bottom)
+    margin: 1em 2em 3em 4em; (top,right,bottom,left)
+----------------------PADDING--------------------
+Padding es la separacion entre el contenido y su borde.
+
+Padding es un shorthand.
+    
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+
+    ejemplo visual de como se tomaria en cuenta.
+
+    padding: 1em; (top,right,bottom,left)
+    padding: 1em 2em; (x,y)
+    padding: 1em 2em 3em; (top,x,bottom)
+    padding: 1em 2em 3em 4em; (top,right,bottom,left)
+    
+*/
+.box1{
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+    margin: 1em 2em 3em 4em;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    border: 2px solid blue;
+    padding: 1em 2em 3em 4em;
+}
+
+.box2-content{
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border: 2px solid red
+}

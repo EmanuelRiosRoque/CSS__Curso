@@ -1,0 +1,101 @@
+/* Selector de etiqueta  ( { ) */
+
+p{
+color: red;
+}
+
+h1{
+    color: blue;
+}
+
+/* Selectores de clas */
+.title-1{
+    color: brown;
+}
+.text-1{
+    color: cadetblue;
+}
+
+/* Selectores de id */
+#title-1{
+    color: chartreuse;
+}
+#text-1{
+    color: crimson;
+}
+
+/* Selectores de universales (*) este hace que todo las modificaiones que hagas dentro de el se apliquen para todo el proyecto*/
+*{
+    color:red
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo */
+[href]{
+    color: rosybrown;
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo y ese valor */
+[href="#"]{
+    color: red;
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo al menos ese valor una vez (~=)*/
+[class~="verde"]{
+    color: green;
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo al menos ese valor una vez */
+[class="verde"]{
+    color: blue;
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo y empeizan con ese valor (^=) */
+[class^="rojo"]{
+    color: purple;
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo y terminan con ese valor ($=) */
+[class$="rojo"]{
+    color: steelblue;
+}
+
+/* Selectores de atributos, selecciona los elementos que tienen ese atributo y que contenga ese valor valor (*=) */
+[class*="rojo"]{
+    color: brown;
+}
+
+/* Selecto convinadores */
+
+/* Selector de hermano adyasente (selecciona al "hermano que esta justo debajo" */
+h1 + h2{
+    color: brown;
+}
+
+h2 + h2{
+    color: chartreuse;
+}
+
+/* Selector de hermano generales (selecciona al "hermano que esta justo debajo" */
+h1 ~ h3{
+    color: cornflowerblue;
+}
+
+/* Selector descendente */
+
+/* Seleciona todos los hijos. El estilo aplicado se visualiza en todos los hijos*/
+div span{
+    color: black;
+}
+
+/* Selector de hijos directos */
+
+/* Seleciona todos los hijos. Que sean directos es decir que no esten dentro de otras etiquetas*/
+
+p > span{
+    color: blue;
+}
+
+/* Background le da un fondo al elemento*/
+header{
+    background: grey;
+}

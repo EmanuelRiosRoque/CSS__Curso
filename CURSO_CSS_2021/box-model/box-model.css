@@ -1,0 +1,53 @@
+/*
+--------------------BOX MODEL--------------------
+
+En la web toso son cajas, al conjunto de estas cajas y la forma en la que el navegador los dibujarase le denomina LAYOUT
+
+Las propiedades principales de cada una de estas cajas son el ancho (widgh) y el alto (height).
+
+Existen dos tipos de elementos los elemento en line y los elementos de line (inline) / (block)
+
+Elementos linea:
+    Son elementos que solo ocupan su contenido.
+    No se puede modificar ni su ancho ni su alto.
+
+Elementos block:
+    Ocupan todo el ancho disponible.
+    Se les puede asignar ancho y alto.
+*/
+
+h1{
+    background: royalblue;
+    height: 150px;
+    width: 100px;
+}
+
+h2{
+    background:salmon;
+    width: 50px;
+}
+
+a{
+    background: seagreen;
+    width: 300px;
+    height: 200px; /*No pasa absolutamente nada por que es un elemento en linea*/
+}
+
+.box-1{
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+
+    padding: 10px ; /*El padding es el espacio entre contenido del elemento y su borde (borde)(separamos el contenido de sus borde*/
+
+    border: 2px solid cadetblue ; /*Es como si fuera un marco */
+
+    margin: 20px; /*Establece el margen para los cuatro lados. Es una abreviación para evitar tener que establecer cada lado por separado con las otras propiedades de margen (separamos la caja de su alrededor)*/
+    
+    outline: 5px solid blue; /*Es parecido al padding pero no hace la separcion*/
+}
+.box-2{
+    background: slateblue;
+    width: 100px;
+    height: 100px;
+}

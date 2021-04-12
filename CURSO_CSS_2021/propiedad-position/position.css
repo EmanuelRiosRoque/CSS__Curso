@@ -1,0 +1,37 @@
+/*
+-----------------------POSITION------------------
+Es la propiedad que nos permite modificar el fluejo del HTML
+
+LOS VALORES DE POSITION SON:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+Al tener un elemento posicionado pdemos moverlo en los 3 ejes
+
+    °top--> Podemos mover el elemento a la parte superior.
+
+    
+    ° right-->Podemos mover el elemento a la parte derecha.
+
+    ° bottom-->Podemos mover el elemeto a la parte inferior.
+
+    ° left-->Podemos mover el elemtno a la parte izquierda.
+
+    ° z-indez-->Podemos mover el elemtno en el eje Z.
+*/
+
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+.parrafo-1{
+    visibility: hidden; /*Este hace que el parrafo no se vea pero conserva la posicion*/
+    display: none;/*Este hace que el parrafo no se vea y no conserva la posicion*/
+}

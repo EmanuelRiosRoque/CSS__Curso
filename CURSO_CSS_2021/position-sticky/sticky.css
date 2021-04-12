@@ -1,0 +1,41 @@
+/*
+-----------------------STICKY--------------------
+El valor sticky es una mezcla entre relative y fixed
+
+-El elemento va a conservar el espacio en el flujo
+
+-Si no tienen dimenciones declaradas, sus dimenciones se ajustaran al contenido
+
+-Su punto de referencia no se modificara aunque movamos el elemento
+
+-Cuando hacemos scroll el elemento se movera hasat alcanzar el tope establecido.
+
+*/
+body{
+    padding-top: 6em;
+}
+
+.slide{
+    height: 300px;
+    background: grey;
+    font-size: 3em;
+    text-align: center;
+    line-height: 6em;
+}
+
+.menu{
+    background: blueviolet;
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    /* top:0;
+    position: fixed; */
+    position: sticky;
+    top: 0px;
+}
+
+.title{
+    margin: 0;
+}
+

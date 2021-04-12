@@ -1,0 +1,91 @@
+/*
+----------------------BORDER---------------------
+borde es la linea que rodea la caja 
+border es un shorthand
+
+Las propiedades de los bordes son:
+
+    Width 
+    style
+    color
+
+Existen bastante convinaciones:
+
+    border-width: 2px; (top, right, bottom, left)
+    border-style: solid dotted; (X, Y)
+    border-color: red blue green; (top Xbottom)
+    border-width: 2px 3px 4px 5px;(top right bottom left)
+
+Propiedades de existen para
+
+width--> px/em/rem/%
+
+style--> none/hidden/dotted/dashed/solid/double/groove/ridge/insert/outset/initial/inherit
+
+color--> css native/rgb/rgba/hsl/hsla/hexadecimal/transparent
+
+*/
+
+[class*=box] {
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+}
+
+.box1 {
+    background: yellowgreen;
+    border: 5px solid red;
+    border-top-width: 200px;
+    border-top-color: transparent;
+}
+
+.box2 {
+    background: lightseagreen;
+    border-left-width: 5px;
+    border-left-style: dotted;
+    border-left-color: blue;
+}
+
+.box3 {
+    background: lightcoral;
+    border: 5px dashed blue;
+}
+
+.box4 {
+    background: yellowgreen;
+    border: 5px double blue;
+}
+
+.box5 {
+    background: lightseagreen;
+    border: 5px groove blue;
+}
+
+.box6 {
+    background: lightcoral;
+    border: 5px ridge blue;
+}
+
+.box7 {
+    background: yellowgreen;
+    border: 5px inset blue;
+}
+
+.box8 {
+    background: lightseagreen;
+    border: 5px outset blue;
+}
+
+/* initial es la propiedad que tuviera por defecto, en este caso es none */
+
+.box9 {
+    background: lightcoral;
+    border: 5px initial blue;
+}
+
+/* inherit es la propiedad heredada, si el padre tuviera border pues cogería ese estilo */
+
+.box10 {
+    background: yellowgreen;
+    border: 5px inherit blue;
+}

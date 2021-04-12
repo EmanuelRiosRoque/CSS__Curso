@@ -1,0 +1,72 @@
+/* 
+    Normalmente necesitamos resetear los estilos por defecto de una lista
+        margen superior: 0;
+        margen inferior: 0;
+        padding-left: 0;
+
+    Hay tres propiedades para las listas, se pueden aplicar al padre oa los elementos de la lista
+
+    list-style-type: Establece el estilo de viñeta
+        desct
+        circulo
+        cuadrado
+        decimal
+        decimal-inicial-cero
+        romano inferior
+        romano superior
+        griego inferior
+        latín inferior
+        latín alto
+        armenio
+        georgiano
+        alfa inferior
+        alfa superior
+
+    list-style-position: Hace que las viñetas se coloquen por dentro o por fuera del elemento
+        afuera | adentro
+        
+    list-style-image: Pone una imagen en lugar de la viñeta, no se suele utilizar porque hay formas mucho más eficientes de hacerlo
+        url (imagen)
+    Normamente se suele usar el estilo de lista abreviada
+*/
+
+/* .list{
+    list-style-type:lower-latin;
+} */
+
+/* .list{
+    list-style-image: url(image/Bueno.png);
+} */
+
+.list{
+    list-style-type: none;
+}
+
+/* .list__item::before{
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url(image/Bueno.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 1em;
+} */
+
+/* .list__item{
+    background-image: url(image/Bueno.png);
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    background: url(image/Bueno.png) 0 0 / contain no-repeat;
+} */
+
+/* .list{
+    list-style-position: inside;
+}
+
+.list__item{
+    background: rebeccapurple;
+} */

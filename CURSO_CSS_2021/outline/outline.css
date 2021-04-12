@@ -1,0 +1,40 @@
+/*
+-----------------------Outline-------------------
+Outline es la linea que rodera a la caja entre el border y el matgin
+
+Outline es un shorthand
+
+las propiedades de outline son:
+
+    width
+    style
+    color
+    offset
+
+Existen bastantes convinaciones:
+
+    outline-width: 2px; (top, right, bottom, left)
+    outline-style: solid dotted; (X, Y)
+    outline-color: red blue green; (top Xbottom)
+    outline-width: 2px 3px 4px 5px;(top right bottom left)
+    outline-offset: +-px/em/rem etc...
+*/
+
+.img-box{
+    width: 30%;
+    margin: 2em auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    border: 45px solid lightgreen;
+    outline: 5px solid lightsalmon;
+    outline-offset: -140px;
+}
+.text{
+    position: absolute;
+    color: lightsalmon;
+    font-size: 10em;
+}
